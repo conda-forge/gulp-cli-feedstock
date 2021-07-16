@@ -34,13 +34,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_nodejs12</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_64_nodejs12" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_nodejs14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
@@ -55,10 +48,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_nodejs12</td>
+              <td>linux_64_nodejs16</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_nodejs12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_64_nodejs16" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -76,10 +69,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_nodejs12</td>
+              <td>linux_aarch64_nodejs16</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_nodejs12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_nodejs16" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -97,10 +90,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_nodejs12</td>
+              <td>linux_ppc64le_nodejs16</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_nodejs16" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -115,6 +108,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs15" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs16" alt="variant">
                 </a>
               </td>
             </tr>
@@ -139,6 +139,7 @@ Installing `gulp-cli` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `gulp-cli` can be installed with:
