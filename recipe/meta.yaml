@@ -14,9 +14,12 @@ build:
   skip: true  # [win]
 
 requirements:
+  build:
+    - nodejs
   host:
     - nodejs
-    - yarn <2
+    - pnpm
+    - pnpm-licenses
   run:
     - nodejs
 
