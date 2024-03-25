@@ -13,14 +13,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/gulp-cli-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gulp-cli-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -73,6 +66,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_nodejs20" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs18</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs18" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs20</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12136&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gulp-cli-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs20" alt="variant">
                 </a>
               </td>
             </tr>
