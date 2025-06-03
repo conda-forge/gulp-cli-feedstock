@@ -1,5 +1,5 @@
 {% set name = "gulp-cli" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: f90ba044fd1486dcc0f5e7ec07aba39fc62079cd0f3df78f2ba123b404f8094b
+  sha256: 683fa88d8d15b49a8adf760f25e4e46f068f1e065fe234e1199b27fe6bf0376e
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
